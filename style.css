@@ -1,0 +1,28 @@
+html{
+    background: cyan;
+}
+/* .container{
+    width: 500px;
+    margin: 50px auto;
+    background: coral;
+    border-radius: 5px;
+} */
+.items{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+}
+input:checked + p{
+    text-decoration:line-through;
+}
+input[type="checked"]{
+    margin: 20px;
+}
+p {
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    font-size: 20px;
+    border-left: 1px solid #D1E2FF;
+  }
+  
